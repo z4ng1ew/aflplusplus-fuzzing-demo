@@ -1,0 +1,18 @@
+cat > .gitignore << EOF
+# Временные файлы
+*~
+.DS_Store
+tmp/
+temp/
+log/
+logs/
+
+# Системные файлы
+/.Trash/
+/.Spotlight-V100
+/.fseventsd
+
+# Дополнительно
+__pycache__
+*.pyc
+EOF
